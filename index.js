@@ -1,8 +1,13 @@
+let icon=document.querySelector("#icon");
+icon.addEventListener('click', ()=>{
+    
+})
 addEventListener("scroll",()=>{
      let inicio=document.querySelector("#inicio");
      let about=document.querySelector("#about");
      let Habilidades=document.querySelector("#Habilidades");
      let proyectos=document.querySelector("#proyectos");
+    
      if (window.scrollY <=0) {
         inicio.style.borderBottom="2px solid #13a8fe";
        }
