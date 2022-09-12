@@ -1,4 +1,13 @@
 let icon=document.querySelector("#icon");
+let navespacial =document.querySelector("#navespacial");
+navespacial.addEventListener('click',()=>{
+    let humo =document.querySelector(".humo").style.visibility="visible";
+    let alien =document.querySelector("#alien").innerHTML="! ΨΩαβγδεηθ"
+});
+setTimeout(()=>{
+    let alien =document.querySelector("#alien").innerHTML="Hola terricola"
+    let humo =document.querySelector(".humo").style.visibility="hidden";
+},25000)
 // icon.addEventListener('click', ()=>{
     
 // })

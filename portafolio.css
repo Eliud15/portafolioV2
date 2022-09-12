@@ -27,10 +27,18 @@ body{
     height: 100px;
     z-index: 89000000000000000000;
     /* background-color: #fff; */  
+    cursor: pointer;
 } 
+.humo{
+    position: absolute;
+    z-index: -1;
+    margin-left: 50px;
+    transform: rotate(20deg);
+    visibility: hidden;
+}
 .hello-terricola{
     display: inline;
-    
+    /* margin-left: 20px; */
 }
 h5{
      font-family: Arial;
@@ -164,14 +172,24 @@ li p{
     flex-wrap: wrap;
 }
 .bg-img{
-    width: 90px;
-    height: 90px;
-    background: #000117;
-    border-radius: 20px;
-    padding-top: 10px;
+    /* width: auto; */
+    padding: 10px;  
+      /* margin-bottom: 10px; */
+    /* height: 90px; */
+    /* background: #000117; */
+    /* border-radius: 20px; */
+    /* padding-top: 10px; */
     margin-left: 10px;
-    margin-bottom: 10px;
-    
+    cursor: pointer;
+    color: #fff;
+}
+
+.bg-img a {
+    color: #fff;
+    text-decoration: none;
+}
+.bg-img:hover{
+    border-bottom: 2px solid #cf0060;
 }
 .skill{
     width: 70px;
