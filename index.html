@@ -1,272 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portafolio.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/space-age">
-   <meta name="description" content="Este es el portafolio de eliuth y sus habilidades como desarrollador web front end junior">
-   <meta name="keywords" content="Junior,junior,eliuth,Eliuth,desarrollador,web,paginas">     
-    <title>Portafolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portafolio.css">
+  <title>Javascript</title>
 </head>
-<body >
-    <!-- ----------------------------PARTICLES --------------------------------------------------------------->
-    <div id="particles-js"></div>
-    <!-- -----------------------------HEADER ------------------------------------------------------------------>
-    <!-- <header id="head">
-        <nav id="head__nav">
-            <img id="icon" src="https://cdn-icons-png.flaticon.com/512/2698/2698011.png" alt="">
-           <ul id="nav__ul">
-                <li class="ul__li"><a href="index.html" id="inicio" class="anclas">Inicio</a></li>
-                <li class="ul__li"><a onclick="aboutF()" id="about" class="anclas">About</a></li>
-                <li class="ul__li"><a onclick="habilidadesF()" id="Habilidades" class="anclas">Skills</a></li>
-                <li class="ul__li"><a onclick="proyectosF()" id="proyectos" class="anclas">Proyects</a></li>
-            </ul>
-        </nav>
-    </header> -->
-    <!-- ------------------------------MAIN ------------------------------------------------------------->
-    <main id="main">
-      <marquee behavior="scroll" direction="">
-         <div id="navespacial">
-          <img class="humo" src="humo.gif" alt="" width="60px" height="60px">
-            <img class="nave" src="https://cdn-icons-png.flaticon.com/512/8146/8146772.png" width="80px" height="80px" alt="Navespacial">
-            <div class="hello-terricola">
-              <h5 id="alien">Hello terricola</h5>
-            </div>
-        </div>
-      </marquee>
-      <div class="eliuth">
-           <h1 id="titulo">Eliuth pinto</h1>
-            <br>
-            <h4 id="h4"></h4>
-            <div id="container"><img id="flecha" src="https://cdn-icons-png.flaticon.com/512/8045/8045318.png" alt="flecha"></div>
-            
-      </div>
-      <!-- ----------------------------CONTAINER QUIEN SOY ------------------------------------------------->
-       <div  id="quiensoy">
-        <h2  id="sub-titulo-quiensoy">About me</h2>
-        <ul>
-            <li>
-                <p>
-                  I am a junior front-end web developer from Colombia looking to learn and help businesses achieve
-                    greater productivity both in your sales, or ventures contributing all my knowledge
-                     to satisfy your needs.
-                </p>
-                <h2 id="sub-titulo-quiensoy">strengths</h2>
-                <p>
-                  I like to assume leadership, so that both my team
-                  Like me, let's do our best.
-                    I also adapt quickly and my creativity grows.
-                 </p>
-            </li>
-        </ul>
-       </div>
-        <!-- ----------------------------CONTAINER HABILIDADES ------------------------------------------------->
-       <div id="quiensoy">
-        <h2 id="sub-titulo-quiensoy">Skills</h2>
-            <div id="container-habilidades">
-                <div class="bg-img">
-                    <img class="skill" src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="Html">
-                 </div>
-                 <div class="bg-img">
-                   <img class="skill" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="Css">
-                  </div>
-                  <div class="bg-img">
-                    <img class="skill" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Javascript">
-                   
-                  </div>
-                  <div class="bg-img">
-                      <img class="skill" src="https://cdn-icons-png.flaticon.com/512/919/919831.png" alt="Sass">
-                
-                  </div>
-                  <div class="bg-img">
-                      <!-- <img  class="skill"src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt=""> -->
-                  </div>
-                  <div class="bg-img">
-                     <img class="skill" src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" alt="Git">
-                 </div>
-                 <div class="bg-img">
-                     <img class="skill" src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="Git hub">
-                 </div>
-                 <div class="bg-img">
-                     <!-- <img class="skill" src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt=""> -->
-                 </div>
-               </div>
-       </div>
-       <marquee behavior="scroll" direction="">
-        <div >
-         
-           <img id="asteroid" src="https://cdn-icons-png.flaticon.com/512/2531/2531034.png" width="80px" height="80px" alt="Asteroide">
-           <!-- <div class="hello-terricola">
-             <h5 id="alien">Hello terricola</h5>
-           </div> -->
-       </div>
-     </marquee>
-        <!-- ----------------------------CONTAINER PROYECTOS ------------------------------------------------->
-       <div id="quiensoy">
-        <h2 id="sub-titulo-quiensoy">Proyecs</h2>
-            <div id="container-habilidades">
-                <div class="bg-img">
-                  <a href="https://eliud15.github.io/pagina-web/">Zona Gamer</a>
-                </div>
-                <div class="bg-img">
-                   <a href="https://eliud15.github.io/Motivacion/">Motivaciones</a>
-                 </div>
-                 <!-- <div class="bg-img">
-                  <a href="https://eliud15.github.io/Motivacion/">Frases</a>
-                 </div> -->
-                 <!-- <div class="bg-img">
-                     <img class="skill" src="https://cdn-icons-png.flaticon.com/512/919/919831.png" alt="">
-               
-                 </div>
-                 <div class="bg-img">
-                     <img  class="skill"src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="">
-                 </div>
-                 <div class="bg-img">
-                    <img class="skill" src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" alt="">
-                </div>
-                <div class="bg-img">
-                    <img class="skill" src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="">
-                </div>
-                <div class="bg-img">
-                    <img class="skill" src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="">
-                </div> -->
-               </div>
-       </div>
-        <!-- ----------------------------FOOTER------------------------------------------------->
-    </main>
-    <footer>
-        <div class="footer-container">
-          <h4>Redes</h4>
-         <a class="foo-container-a" href="https://www.instagram.com/elliuth15/">Instagram</a>
-         <!-- <a class="foo-container-a" href="">Whatsapp</a> -->
-         <a class="foo-container-a" href="mailto:eliuthpinto2003@gmail.com">Correo</a>
-      </div>
-      <div class="footer-container">
-          <h4>Mis paginas</h4>
-          <a class="foo-container-a" href="https://eliud15.github.io/Motivacion/">Motivaciones</a>
-          <a class="foo-container-a" href="https://eliud15.github.io/pagina-web/">Zona gamer</a>
-          <!-- <a class="foo-container-a" href="">Galeria</a> -->
-      </div>
-  </footer>
-</body>
-<script src="particles.min.js"></script>
-<script>
-   particlesJS(
-    {
-  "particles": {
-    "number": {
-      "value": 160,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 1,
-      "random": true,
-      "anim": {
-        "enable": true,
-        "speed": 1,
-        "opacity_min": 0,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 4,
-        "size_min": 0.3,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": false,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 1,
-      "direction": "none",
-      "random": true,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 600
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "bubble"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 250,
-        "size": 0,
-        "duration": 2,
-        "opacity": 0,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 400,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-}
-)
-</script>
-<script src="index.js"></script>
+<body>
+  <header>
+    <nav id="navegacion">
+      <ul id="navegacion__menu">
+        <li><img id="menu__icon" src="https://cdn-icons-png.flaticon.com/512/8384/8384593.png" alt="my icon"></li>
+        <li class="menu__li"><a href="./index.html" class="menu__li-a about">About</a></li>
+        <li class="menu__li"><a href="asdasd" class="menu__li-a">Talentos</a></li>
+        <li class="menu__li"><a href="dasdasd" class="menu__li-a">Contacto</a></li>
+      </ul>
+   </nav>
+   <div id='container-titulos'>
+    <h1  class="sub-titulo">
+      Soy un desarrollador web front-end junior de Colombia. <br>
+      que busca aprender y ayudar a las empresas a lograr una mayor productividad <br>
+       tanto en sus ventas,
+      o sus emprendimientos aportando todos mis conocimientos para satisfacer sus necesidades
+    </h1>
+    <br>
+     <h2 class="sub-titulo" > Y me gusta asumir el liderazgo, para que tanto mi equipo
+      Como yo, <br>
+       hagamos nuestro mejor esfuerzo.
+        También me adapto rápido y mi creatividad hasta las nubes ☁</h2>
+    <!-- <h2 class="sub-titulo">Liderazgo</h2>
+    <h2  class="sub-titulo">Constancia</h2>  -->
+   </div>
+  </header>
+  <main>
+    <section id="my__foto-container">
+     <img  id="my__foto" src="https://images.pexels.com/photos/4758902/pexels-photo-4758902.jpeg?auto=compress&cs=tinysrgb&w=600" alt="eliuth pinto foto">
+    </section>
+  </main>
+  <section>
+    <!-- DESDE AQUI COMIENZA A COLO CAR LAS TALENTOS -->
+  </section>
+
+ </body>
 </html>
